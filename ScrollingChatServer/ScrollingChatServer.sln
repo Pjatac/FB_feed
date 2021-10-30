@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollingChatServer", "ScrollingChatServer\ScrollingChatServer.csproj", "{74AF977B-583F-4105-9A2C-7A12367BF2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posts.DAL", "Posts.DAL\Posts.DAL.csproj", "{D7B11582-41D1-49B9-9CBF-FEEC737F1034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posts.Dal.Tests", "Posts.Dal.Tests\Posts.Dal.Tests.csproj", "{6AD47B41-57FC-45B2-9ED0-4A1D463E4C17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74AF977B-583F-4105-9A2C-7A12367BF2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AF977B-583F-4105-9A2C-7A12367BF2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AF977B-583F-4105-9A2C-7A12367BF2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AF977B-583F-4105-9A2C-7A12367BF2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B11582-41D1-49B9-9CBF-FEEC737F1034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B11582-41D1-49B9-9CBF-FEEC737F1034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B11582-41D1-49B9-9CBF-FEEC737F1034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B11582-41D1-49B9-9CBF-FEEC737F1034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD47B41-57FC-45B2-9ED0-4A1D463E4C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD47B41-57FC-45B2-9ED0-4A1D463E4C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD47B41-57FC-45B2-9ED0-4A1D463E4C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD47B41-57FC-45B2-9ED0-4A1D463E4C17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84AAAD52-0A4C-4501-90A3-71CADED8818B}
+	EndGlobalSection
+EndGlobal

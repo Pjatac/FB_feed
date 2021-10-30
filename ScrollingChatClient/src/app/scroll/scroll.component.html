@@ -1,0 +1,23 @@
+<div class="center-align">
+  <h1>Scroll Component</h1>
+  <button mat-raised-button color="primary" (click)="fetch()">Fetch</button>
+</div>
+<!-- <div *ngIf="error">
+  {{error}}
+</div> -->
+<ng-container *ngIf="(data$ | async) as data" style="margin-bottom: 30px;">
+  <mat-list role="list">
+    <mat-list-item role="listitem" *ngFor="let item of data; trackBy: trackByIdFn">
+      <div class="center-align">
+        <div class="message-container">
+          <div matLine class="result-header" style="padding-right: 1em">
+            {{ item.postDateUtc | date :'medium'}}
+          </div>
+          <div matLine class="result-sub-header">
+            {{ item.postMessage }}
+          </div>
+        </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
+</ng-container>
